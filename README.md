@@ -4,6 +4,8 @@ A tiny menu bar kanban for macOS 14+. Capture a task from anywhere with a hotkey
 
 Download the signed, notarized app from [labs.axiomic.ai/ezkanban](https://labs.axiomic.ai/ezkanban/).
 
+![The EZKanban board open below its menu bar icon: Inbox, Doing, and Done columns with task cards](docs/board.webp)
+
 ## Build
 
 1. Open `EZKanban.xcodeproj` in Xcode.
