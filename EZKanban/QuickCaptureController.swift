@@ -10,7 +10,7 @@ final class QuickCaptureController: NSObject, NSTextFieldDelegate, NSWindowDeleg
 
     private let store: BoardStore
     private let field = NSTextField()
-    private let fieldEditor = CaptureFieldEditor()
+    private let fieldEditor = CaptureFieldEditor(frame: .zero)
     private let glow = CaptureGlowState()
     private lazy var panel = makePanel()
     private var previousApp: NSRunningApplication?
@@ -150,13 +150,17 @@ private final class CapturePanel: NSPanel {
 
 /// Pasting several lines keeps them apart (one card each) instead of mashing them together.
 private final class CaptureFieldEditor: NSTextView {
-    override init(frame: NSRect, textContainer: NSTextContainer?) {
-        super.init(frame: frame, textContainer: textContainer)
+    /// Use this one: it builds the text storage. With a nil text container there's nowhere
+    /// to put typed text, and every keystroke just beeps.
+    override init(frame frameRect: NSRect) {
+        super.init(frame: frameRect)
         isFieldEditor = true
     }
 
-    convenience init() {
-        self.init(frame: .zero, textContainer: nil)
+    // AppKit calls this from init(frame:), so it must exist on the subclass too.
+    override init(frame: NSRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
+        isFieldEditor = true
     }
 
     required init?(coder: NSCoder) { fatalError() }

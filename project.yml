@@ -21,15 +21,16 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.axiomic.ezkanban
         DEVELOPMENT_TEAM: PVNUZ5R5GQ
         PRODUCT_NAME: EZKanban
-        MARKETING_VERSION: "1.0"
+        MARKETING_VERSION: "1.0.0"
         CURRENT_PROJECT_VERSION: "1"
         GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_KEY_LSUIElement: YES
         INFOPLIST_KEY_CFBundleDisplayName: EZKanban
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.productivity
         SWIFT_VERSION: "5.0"
-        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_IDENTITY: "Apple Development"
         CODE_SIGN_STYLE: Automatic
-        ENABLE_HARDENED_RUNTIME: NO
+        ENABLE_HARDENED_RUNTIME: YES  # required for notarization
         ENABLE_APP_SANDBOX: NO
     scheme: {}

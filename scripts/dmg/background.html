@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- Source for background.tiff (the DMG window background, 600×400 pt).
+     Rendered at 1x and 2x with headless Chrome, then joined with tiffutil; see release.sh.
+     Icon centres (set in settings.py): EZKanban.app at (150, 190), Applications at (450, 190). -->
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0}
+body{width:600px;height:400px;overflow:hidden;position:relative;background:
+  radial-gradient(260px 200px at 150px 190px, rgba(8,148,255,.10), rgba(8,148,255,0) 100%),
+  radial-gradient(260px 200px at 300px 210px, rgba(201,89,221,.08), rgba(201,89,221,0) 100%),
+  radial-gradient(260px 200px at 450px 190px, rgba(255,144,4,.09), rgba(255,144,4,0) 100%),
+  #FAF7EE;font-family:Fraunces,Georgia,serif;color:#1A1916}
+.kicker{position:absolute;top:44px;left:0;right:0;text-align:center;font-family:"JetBrains Mono",monospace;
+  font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#65615A}
+svg{position:absolute;left:228px;top:172px}
+.tag{position:absolute;bottom:34px;left:0;right:0;text-align:center;font-size:17px;color:#3A372F;
+  font-variation-settings:"opsz" 30,"SOFT" 30}
+.tag em{font-style:italic}
+</style></head><body>
+<div class="kicker">Drag EZKanban into Applications</div>
+<svg width="144" height="36" viewBox="0 0 144 36" fill="none">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0894FF"/><stop offset=".5" stop-color="#C959DD"/><stop offset="1" stop-color="#FF9004"/></linearGradient></defs>
+  <path d="M6 18H134M120 6l14 12-14 12" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<div class="tag">Capture now. <em>Sort later.</em></div>
+</body></html>

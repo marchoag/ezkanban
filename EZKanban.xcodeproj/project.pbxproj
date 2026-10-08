@@ -12,6 +12,7 @@
 		36502525A00C011709A8ABAC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD01F219EB2E38C1526DCA4 /* BoardView.swift */; };
 		4E4C874C4B27CD1E85242B19 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F922E010923A950DC4C1B9 /* MenuBarController.swift */; };
 		6D143EBCE8ADEB520648EA82 /* QuickCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E8422D492DFD5F4144589 /* QuickCaptureController.swift */; };
+		7FA5839A724A3BC53E61AC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A47A9A4EF88AF3C69619FC /* Assets.xcassets */; };
 		99FFC939E66BBDC8FF1347EC /* EZKanbanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6047E8DDA8411FF6AD64EE1 /* EZKanbanApp.swift */; };
 		AD8846774940A209D7617F50 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F2E293F336283319BF702 /* Card.swift */; };
 		C0AF5A12C34DF5A61301C3DF /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6EB1CA5D699242B4C8668C /* BoardController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A47A9A4EF88AF3C69619FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A9AD3DB9AA35A66C1FD171 /* EZKanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F3E1825B8539BA4005EC5D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5921C2F5C1D33748FD283F24 /* Sheen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheen.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		34FD31DF2C02AE01F19BEA6C /* EZKanban */ = {
 			isa = PBXGroup;
 			children = (
+				17A47A9A4EF88AF3C69619FC /* Assets.xcassets */,
 				6D6EB1CA5D699242B4C8668C /* BoardController.swift */,
 				E65A6CEB846ED7E0144C2B07 /* BoardStore.swift */,
 				7AD01F219EB2E38C1526DCA4 /* BoardView.swift */,
@@ -84,6 +87,7 @@
 			buildConfigurationList = 4C5E975D121BB22A9653B404 /* Build configuration list for PBXNativeTarget "EZKanban" */;
 			buildPhases = (
 				2C758CAA52B79849BC014855 /* Sources */,
+				2A0BCAD7E76F8FBF3CB68331 /* Resources */,
 				DFE85BF41E91495E7223ED44 /* Frameworks */,
 			);
 			buildRules = (
@@ -108,6 +112,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					07C9A8D2B8CAC6943DE9BE51 = {
+						DevelopmentTeam = PVNUZ5R5GQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,6 +139,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2A0BCAD7E76F8FBF3CB68331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA5839A724A3BC53E61AC8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C758CAA52B79849BC014855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,13 +174,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PVNUZ5R5GQ;
 				ENABLE_APP_SANDBOX = NO;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EZKanban;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -173,7 +189,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.axiomic.ezkanban;
 				PRODUCT_NAME = EZKanban;
 				SDKROOT = macosx;
@@ -185,13 +201,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PVNUZ5R5GQ;
 				ENABLE_APP_SANDBOX = NO;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EZKanban;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -200,7 +216,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.axiomic.ezkanban;
 				PRODUCT_NAME = EZKanban;
 				SDKROOT = macosx;

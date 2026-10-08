@@ -2,6 +2,8 @@
 
 A tiny menu bar kanban for macOS 14+. Capture a task from anywhere with a hotkey, then sort it later on a three-column board (Inbox → Doing → Done). There are no accounts, no sync, and no analytics.
 
+Download the signed, notarized app from [labs.axiomic.ai/ezkanban](https://labs.axiomic.ai/ezkanban/).
+
 ## Build
 
 1. Open `EZKanban.xcodeproj` in Xcode.
@@ -60,6 +62,10 @@ The board is saved in `~/Library/Application Support/EZKanban/board.json`:
 ## Settings
 
 Open Settings from the gear menu on the board or with ⌘,. You can change both hotkeys, launch at login, show the Inbox count in the menu bar, and reveal `board.json` in Finder. Launch at login works best once the app is copied to `/Applications`.
+
+## Releasing
+
+`./scripts/release.sh` archives a universal build, signs it with the Axiomic Developer ID, notarizes and staples it, and writes `build/EZKanban.dmg`. Upload that file to a GitHub release under exactly that name, because the website's download link resolves by filename. Release notes live in `CHANGELOG.md`. The script explains its one-time notarization setup, and it can also package an app that Xcode has already notarized (`--package-only`).
 
 ## License
 
