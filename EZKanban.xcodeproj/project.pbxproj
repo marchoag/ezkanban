@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0973C0BBB523243279ADE9 /* Sheen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921C2F5C1D33748FD283F24 /* Sheen.swift */; };
+		2357A05EA93487192B0BCC98 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 30122A5BC52C9B08BD8C4AE2 /* KeyboardShortcuts */; };
+		36502525A00C011709A8ABAC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD01F219EB2E38C1526DCA4 /* BoardView.swift */; };
+		4E4C874C4B27CD1E85242B19 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F922E010923A950DC4C1B9 /* MenuBarController.swift */; };
+		6D143EBCE8ADEB520648EA82 /* QuickCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E8422D492DFD5F4144589 /* QuickCaptureController.swift */; };
+		99FFC939E66BBDC8FF1347EC /* EZKanbanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6047E8DDA8411FF6AD64EE1 /* EZKanbanApp.swift */; };
+		AD8846774940A209D7617F50 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F2E293F336283319BF702 /* Card.swift */; };
+		C0AF5A12C34DF5A61301C3DF /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6EB1CA5D699242B4C8668C /* BoardController.swift */; };
+		CAB94C29DDC795BFD15A0434 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3E1825B8539BA4005EC5D /* Settings.swift */; };
+		E6AE77AC84D46B3B1B69AD4A /* BoardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65A6CEB846ED7E0144C2B07 /* BoardStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A9AD3DB9AA35A66C1FD171 /* EZKanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F3E1825B8539BA4005EC5D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5921C2F5C1D33748FD283F24 /* Sheen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheen.swift; sourceTree = "<group>"; };
+		6D6EB1CA5D699242B4C8668C /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
+		7AD01F219EB2E38C1526DCA4 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		8E6E8422D492DFD5F4144589 /* QuickCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCaptureController.swift; sourceTree = "<group>"; };
+		C6047E8DDA8411FF6AD64EE1 /* EZKanbanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZKanbanApp.swift; sourceTree = "<group>"; };
+		D7F922E010923A950DC4C1B9 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		DE2F2E293F336283319BF702 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E65A6CEB846ED7E0144C2B07 /* BoardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE85BF41E91495E7223ED44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2357A05EA93487192B0BCC98 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FD31DF2C02AE01F19BEA6C /* EZKanban */ = {
+			isa = PBXGroup;
+			children = (
+				6D6EB1CA5D699242B4C8668C /* BoardController.swift */,
+				E65A6CEB846ED7E0144C2B07 /* BoardStore.swift */,
+				7AD01F219EB2E38C1526DCA4 /* BoardView.swift */,
+				DE2F2E293F336283319BF702 /* Card.swift */,
+				C6047E8DDA8411FF6AD64EE1 /* EZKanbanApp.swift */,
+				D7F922E010923A950DC4C1B9 /* MenuBarController.swift */,
+				8E6E8422D492DFD5F4144589 /* QuickCaptureController.swift */,
+				44F3E1825B8539BA4005EC5D /* Settings.swift */,
+				5921C2F5C1D33748FD283F24 /* Sheen.swift */,
+			);
+			path = EZKanban;
+			sourceTree = "<group>";
+		};
+		524EB7151DD615111C2FAD6D = {
+			isa = PBXGroup;
+			children = (
+				34FD31DF2C02AE01F19BEA6C /* EZKanban */,
+				A00FFA378187B61F045A2C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00FFA378187B61F045A2C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A9AD3DB9AA35A66C1FD171 /* EZKanban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C9A8D2B8CAC6943DE9BE51 /* EZKanban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5E975D121BB22A9653B404 /* Build configuration list for PBXNativeTarget "EZKanban" */;
+			buildPhases = (
+				2C758CAA52B79849BC014855 /* Sources */,
+				DFE85BF41E91495E7223ED44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZKanban;
+			packageProductDependencies = (
+				30122A5BC52C9B08BD8C4AE2 /* KeyboardShortcuts */,
+			);
+			productName = EZKanban;
+			productReference = 17A9AD3DB9AA35A66C1FD171 /* EZKanban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86528BB34B572D639CB94A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					07C9A8D2B8CAC6943DE9BE51 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A50CA3D332980EDDBBFB149 /* Build configuration list for PBXProject "EZKanban" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 524EB7151DD615111C2FAD6D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				02AC557264B9AE3C8BF2DC0F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00FFA378187B61F045A2C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C9A8D2B8CAC6943DE9BE51 /* EZKanban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C758CAA52B79849BC014855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AF5A12C34DF5A61301C3DF /* BoardController.swift in Sources */,
+				E6AE77AC84D46B3B1B69AD4A /* BoardStore.swift in Sources */,
+				36502525A00C011709A8ABAC /* BoardView.swift in Sources */,
+				AD8846774940A209D7617F50 /* Card.swift in Sources */,
+				99FFC939E66BBDC8FF1347EC /* EZKanbanApp.swift in Sources */,
+				4E4C874C4B27CD1E85242B19 /* MenuBarController.swift in Sources */,
+				6D143EBCE8ADEB520648EA82 /* QuickCaptureController.swift in Sources */,
+				CAB94C29DDC795BFD15A0434 /* Settings.swift in Sources */,
+				1D0973C0BBB523243279ADE9 /* Sheen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D2BF1C409763AD43768E76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVNUZ5R5GQ;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EZKanban;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiomic.ezkanban;
+				PRODUCT_NAME = EZKanban;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBC58717EE0B9CDCB80DEBA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PVNUZ5R5GQ;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EZKanban;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiomic.ezkanban;
+				PRODUCT_NAME = EZKanban;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E5C73469433D370F2AF0AD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2CBDFE4AE36878F758C62CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A50CA3D332980EDDBBFB149 /* Build configuration list for PBXProject "EZKanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C73469433D370F2AF0AD5C /* Debug */,
+				F2CBDFE4AE36878F758C62CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C5E975D121BB22A9653B404 /* Build configuration list for PBXNativeTarget "EZKanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2BF1C409763AD43768E76F /* Debug */,
+				BBC58717EE0B9CDCB80DEBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02AC557264B9AE3C8BF2DC0F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30122A5BC52C9B08BD8C4AE2 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02AC557264B9AE3C8BF2DC0F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F86528BB34B572D639CB94A2 /* Project object */;
+}
