@@ -60,3 +60,7 @@ The board is saved in `~/Library/Application Support/EZKanban/board.json`:
 ## Settings
 
 Open Settings from the gear menu on the board or with ⌘,. You can change both hotkeys, launch at login, show the Inbox count in the menu bar, and reveal `board.json` in Finder. Launch at login works best once the app is copied to `/Applications`.
+
+## License
+
+MIT. See [LICENSE](LICENSE). Copyright © 2026 Axiomic, LLC.
